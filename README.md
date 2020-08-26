@@ -8,12 +8,19 @@ There are 3 layers with their own responsibility:
 
 ## Explain your choice of libraries
 [Dagger](https://dagger.dev/) is the dependency injection framework I used to decouples dependencies and implements inversion of control principle
+
 [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) allows me to implement MVVM pattern with respect Android components lifecycle
+
 [Apollo](https://github.com/apollographql/apollo-android) allows me to interact with GraphQL API easily
+
 [Navigation](https://developer.android.com/guide/navigation) allows me to define the interaction between the different fragment by defining a graph
+
 [AppAuth](https://github.com/openid/AppAuth-Android) allows me interact with an OAuth 2.0 provider (eg. GitHub) and implement [OpenId Authorization code flow](https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth)
+
 [Kotlin Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) are used to execute use cases asynchronously
+
 [Shimmer](http://facebook.github.io/shimmer-android/) is used to display shimmer effect when loading data
+
 [MockK](https://mockk.io/) is used to mock objects and verify functions calls when executing tests
 
 ## What was the most difficult part of the challenge?
